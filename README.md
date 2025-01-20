@@ -1,3 +1,3 @@
 # Navigation Hover
 
-![Navigation Hover](preview.jpg)
+![Navigation Hover](static/preview.jpg)
