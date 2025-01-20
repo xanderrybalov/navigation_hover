@@ -1,3 +1,8 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Navigation from '$lib/Navigation.svelte';
+  </script>
+  
+  <div class="min-h-screen bg-gradient-to-b from-blue-900 to-black flex items-center justify-center">
+    <Navigation />
+  </div>
+  
