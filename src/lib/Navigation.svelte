@@ -8,7 +8,7 @@ const links = ["Animation", "Branding", "Illustration"];
         {#each links as link}
         <li class="relative">
             <button
-                class="cursor-pointer hover:text-white transition-colors duration-300 focus:outline-none"
+                class="cursor-pointer hover:text-white transition-colors duration-300 focus:text-white focus:outline-none"
                 tabindex="0"
                 on:click={() => {
                 active = link;
