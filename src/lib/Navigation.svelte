@@ -9,8 +9,8 @@ const handleActivate = (link: string): void => {
 };
 </script>
 
-<nav aria-label="Main Navigation" class="flex justify-center items-center w-full bg-transparent py-4">
-    <ul class="flex space-x-10 text-lg font-semibold text-secondary">
+<nav aria-label="Main Navigation" class="flex justify-center items-center w-full bg-transparent py-md">
+    <ul class="flex space-x-xxl text-lg font-semibold text-secondary">
                 {#each links as link}
                 <li class="relative">
                     <NavButton
