@@ -15,7 +15,7 @@
         >
           <span class="{active === link ? 'text-white' : ''}">{link}</span>
           <div 
-            class="absolute left-0 right-0 top-11 h-0.5 bg-white transition-all duration-300 ease-in-out"
+            class="absolute left-5 right-5 top-11 h-0.5 bg-white rounded transition-all duration-300 ease-in-out"
             style="transform: scaleX({active === link ? 1 : 0})"
           ></div>
         </button>
