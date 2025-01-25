@@ -8,10 +8,13 @@
     {#each links as link}
       <li class="relative">
         <button
-          class="cursor-pointer hover:text-white transition-colors duration-300 focus:outline-none"
-          on:click={() => (active = link)}
-          on:keydown={(e) => e.key === 'Enter' && (active = link)}
-          aria-current={active === link ? 'page' : undefined}
+          class="cursor-pointer hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white"
+          tabindex="0" 
+          on:click={() => {
+            active = link;
+            console.log(`Active link changed to: ${link}`);
+          }}
+          aria-current={active === link ? 'page' : undefined} 
         >
           <span class="{active === link ? 'text-white' : ''}">{link}</span>
           <div 
