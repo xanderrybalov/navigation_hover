@@ -10,7 +10,7 @@ const handleActivate = (link: string): void => {
 </script>
 
 <nav aria-label="Main Navigation" class="flex justify-center items-center w-full bg-transparent py-4">
-    <ul class="flex space-x-10 text-lg font-semibold text-gray-400">
+    <ul class="flex space-x-10 text-lg font-semibold text-secondary">
                 {#each links as link}
                 <li class="relative">
                     <NavButton
