@@ -1,8 +1,8 @@
 <script>
     import Navigation from '$lib/Navigation.svelte';
+    import BackgroundContainer from '$lib/BackgroundContainer.svelte';
   </script>
   
-  <div class="min-h-screen bg-gradient-to-b from-black to-blue-950 flex items-center justify-center">
+  <BackgroundContainer>
     <Navigation />
-  </div>
-  
+  </BackgroundContainer>
